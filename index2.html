@@ -113,25 +113,10 @@
 							<div class="col-8 col-12-small">
 
 
-								<!-- modify this form HTML and place wherever you want your form -->
-							
-				
-<!--   <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here 
-  <button type="submit">Send</button>
-</form> -->
 
 
 
-
-
+<!-- OLD FORM TEST  -->
 								
 <!-- <form method="POST" action="https://formspree.io/f/mrbzybwk">
     <div class="row gtr-uniform gtr-50">
@@ -149,6 +134,9 @@
         <li><input type="submit" value="Send Message" /></li>
     </ul>
 </form> -->
+
+								
+<!-- 	NEW FORM  -->
 								<form method="POST" action="https://formspree.io/f/mrbzybwk" id="contactForm">
     <div class="row gtr-uniform gtr-50">
         <div class="col-6 col-12-xsmall">
@@ -182,7 +170,7 @@
         }).then(function(response) {
             if (response.ok) {
                 form.reset(); // Clear the form
-                alert("Thank you for your message!");
+                alert("Thank you for your message! I will get back to you shortly");
             } else {
                 alert("Oops! There was a problem submitting your form.");
             }
